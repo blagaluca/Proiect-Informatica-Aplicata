@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: DodgerBlue;
+}
+
+header {
+    position: relative;
+}
+
+header img {
+    width: 100%;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+#catalog-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 2em;
+    text-shadow: 2px 2px 5px #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+}
+
+#profile-content {
+   
+}
+</style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Buraga Teodor</title>
+</head>
+<body>
+    <header>
+        <h1>Buraga Teodor</h1>
+    </header>
+
+    <section id="profile-content">
+      
+    </section>
+</body>
+</html>

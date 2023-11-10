@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Descriere Personala</title>
+    <style>
+        body {
+            background-color: Orange;
+            font-family: Arial, sans-serif;
+        }
+        
+        header {
+            background-color: Violet;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-family: 'Times New Roman', serif;
+            text-transform: uppercase;
+        }
+        
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        
+        section {
+            background-color: Gray;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 10px;
+        }
+        
+        img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            float: left;
+            margin-right: 20px;
+            opacity: 0.8;
+        }
+        
+        table {
+            border: 1px solid #ccc;
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        
+        ul {
+            list-style: disc inside;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Datele de identificare</h1>
+    <p>Nume: Blaga</p>
+    <p>Prenume: Luca</p>
+    <p>E-mail: blagaluca7@gmail.com</p>
+</header>
+
+<section>
+    <h2>Imagine de profil</h2>
+    <img src="img_boy.jpg" alt="Poza de profil">
+</section>
+
+<section>
+    <h2>Așteptări legate de educație</h2>
+    <p>Citat reprezentativ: "A educație de calitate este cheia către un viitor mai bun, în care fiecare individ are 
+șansa să-și dezvolte potențialul, să înțeleagă lumea înconjurătoare și să contribuie la 
+progresul societății."</p>
+</section>
+
+<section>
+    <h2>Discipline de interes</h2>
+    <table>
+        <tr>
+            <th>Denumirea disciplinei</th>
+            <th>Anul de studiu</th>
+            <th>Link către descriere</th>
+        </tr>
+        <tr>
+            <td>Programare Avansata</td>
+            <td>Anul 2</td>
+            <td><a href="https://etti.utcluj.ro/planuri-de-invatamant/disciplina1.html">Detalii</a></td>
+        </tr>
+        <tr>
+            <td>Protocoale pentru internet</td>
+            <td>Anul 4</td>
+            <td><a href="https://etti.utcluj.ro/planuri-de-invatamant/disciplina2.html">Detalii</a></td>
+        </tr>
+        <tr>
+            <td>Retele de calculatoare</td>
+            <td>Anul 3</td>
+            <td><a href="https://etti.utcluj.ro/planuri-de-invatamant/disciplina3.html">Detalii</a></td>
+        </tr>
+    </table>
+</section>
+
+<section>
+    <h2>Hobby-uri și alte activități</h2>
+    <ul>
+        <li>Hobby 1: Sport</li>
+        <li>Hobby 2: Masinle</li>
+        <li>Hobby 3: Jucatul pe calculator</li>
+    </ul>
+</section>
+
+</body>
+</html>
